@@ -1,5 +1,3 @@
-use regex::Regex;
-
 advent_of_code::solution!(2);
 
 enum Cube {
@@ -29,7 +27,7 @@ impl Game {
         let mut green = 0;
         let mut blue = 0;
 
-        let game = splitted
+        let _game = splitted
             .get(1)
             .unwrap()
             .split(";")
